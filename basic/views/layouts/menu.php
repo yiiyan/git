@@ -54,7 +54,7 @@
                 <li>
                     <a href="#"></i>自定义回复</a>
                     <ul class="sub-menu">
-                        <li><a href="index.php?r=reply/index"></i>文字回复</a></li>
+                        <li><a href="index.php?r=reply/reply"></i>文字回复</a></li>
                         <li><a href="index.php?r=reply/ruled">添加规则</a></li>
                     </ul>
                 </li>

@@ -221,7 +221,7 @@
 					<td>/</td>
 					<td>整目录可写</td>
 					<td><?php if (@file_put_contents('/a.txt','123')) {
-                            unlink('/a.txt');
+                            //unlink('/a.txt');
                             echo '<span class="" style="color: #008000">√</td>';
                         }else{
                             echo '<span class=""  style="color:red">×</td>';
