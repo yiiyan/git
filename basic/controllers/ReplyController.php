@@ -81,7 +81,7 @@ class ReplyController extends Controller
 	    $db=\Yii::$app->db;
 		//结值方式
 	    $id=$requests->get("id");
-	    print_r($arr);die
+	    //print_r($arr);die
 	   $sql="select from we_reply where reid=$id";
 	   print_r($sql);die;
 	    //联查   
