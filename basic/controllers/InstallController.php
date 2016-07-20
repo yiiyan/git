@@ -65,7 +65,7 @@ class InstallController extends Controller
 					];";
             file_put_contents('../config/db.php',$str);
             $str1="<?php
-                \$pdo=new PDO('mysql:host= $host;port=3306;dbname=$db','$name','$pwd',array(PDO::MYSQL_ATTR_INIT_COMMAND=>'set names utf8'));
+                \$pdo=new PDO('mysql:host=$host;port=3306;dbname=$db','$name','$pwd',array(PDO::MYSQL_ATTR_INIT_COMMAND=>'set names utf8'));
                    ?>";
             file_put_contents('./assets/abc.php',$str1);
             $sql="insert into we_user (uname,upwd) VALUES ('$uname','$upwd')";
