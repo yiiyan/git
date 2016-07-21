@@ -72,5 +72,8 @@ class ReplyController extends Controller
 	   return $this->redirect("index.php?r=reply/show");
 
 	}
+
        
 }
+
+
