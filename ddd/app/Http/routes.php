@@ -14,5 +14,4 @@
 Route::get('/', function () {
     return view('login');
 });
-Route::any('login',"LoginController@login");
-Route::any('index',"LoginController@index");
+Route::controller('login',"LoginController");
